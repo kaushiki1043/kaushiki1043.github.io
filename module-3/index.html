@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+      *{
+	margin: 0;
+	padding: 0;
+  text-align: center;
+	
+}
+.navbar{
+
+border: none;
+background-color: rgb(165, 42, 42);
+color:rgba(250, 235, 215, 0.952);
+}
+body{
+	background-color:rgba(250, 235, 215, 0.568);
+	color: white;
+}
+.glyphicon{
+	font-size: 30px;
+	color:rgba(250, 235, 215, 0.74); 
+}
+
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color:rgba(165, 42, 42, 0.897);
+  padding-bottom: 40px;
+  background-color: rgb(165, 42, 42);
+}
+.text-center{
+	font-size: 70px;
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 40px;
+}
+
+h2{
+	text-align: center;
+  font-size: 45px;
+}
+#myNavbar ul li a {
+	color:rgba(250, 235, 215, 0.781);
+  font-size: 24px;
+}
+#myNavbar ul li a:hover {
+	background-color:rgba(250, 235, 215, 0.438);
+  font-size: 24px;
+}
+#fonts{
+font-size: 30px;
+color:rgba(250, 235, 215, 0.904);	
+}
+#fonts:hover{
+  font-size: 32px;
+  color:rgb(214, 167, 64); 
+  }
+  #p1,#p2,#p3 {
+    color:rgba(226, 214, 197, 0.877);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:1px solid black;
+    padding: 5px;
+    margin-bottom: 40px;
+    background-color: rgb(165, 42, 42);
+  }
+  #p3{
+    margin-right: 30px;
+  }
+  #p1{
+    margin-left:30px;
+  }
+  #s1,#s2,#s3{
+    color: rgba(226, 214, 197, 0.877);
+    font-size: 40px;
+    text-align: center;
+  }
+  #fonts{
+    font-size: 30px;
+    color:rgba(250, 235, 215, 0.904);	
+    }
+    #fonts:hover{
+      font-size: 32px;
+      color:rgb(214, 167, 64); 
+      }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" id="fonts" href="#" >Food, LLC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    
+      <ul class="nav navbar-nav navbar-right" >
+        <li style>
+        <a id="hov" href="#" > 
+        <span class="glyphicon glyphicon-cutlery"></span>      Chicken</a>
+        </li>
+        <li>
+        <a id="hov" href="#" >
+        <span class="glyphicon glyphicon-info-sign"></span>      Beef</a>
+        </li>
+        <li>
+        <a id="hov" href="#">
+        <span class="glyphicon glyphicon-certificate"></span>  Sushi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>  
+<h1><p class="text-center">Our Menu</p></h1>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12" id="pos">
+    <p id="p1"><span id="s1">Chicken</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, reprehenderit voluptatem ratione voluptatum molestias, expedita modi mollitia aliquam hic quam, inventore vitae dignissimos. Minus vel quia consequatur tempore excepturi, quae sint et labore praesentium illum sit earum, cumque doloremque, ad ipsum quas. Eligendi, neque! Labore cumque nulla harum eos magnam minima natus nam velit quisquam!</p>
+  	</div>
+  <div class="col-lg-4 col-md-6 col-sm-12" id="pos">
+      <p id="p2"><span id="s2">Beef</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, reprehenderit voluptatem ratione voluptatum molestias, expedita modi mollitia aliquam hic quam, inventore vitae dignissimos. Minus vel quia consequatur tempore excepturi, quae sint et labore praesentium illum sit earum, cumque doloremque, ad ipsum quas. Eligendi, neque! Labore cumque nulla harum eos magnam minima natus nam velit quisquam!loremfa-rotate-180 </p>
+
+  </div>
+
+  <div class="col-lg-4 col-md-12 col-sm-12" id="pos">
+      <p id="p3"><span id="s3">Sushi</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, reprehenderit voluptatem ratione voluptatum molestias, expedita modi mollitia aliquam hic quam, inventore vitae dignissimos. Minus vel quia consequatur tempore excepturi, quae sint et labore praesentium illum sit earum, cumque doloremque, ad ipsum quas. Eligendi, neque! Labore cumque nulla harum eos magnam minima natus nam velit quisquam! </p>
+  </div>
+	</div>	
+      </div>
+    </div>
+</div>
+
+</body>
+</html>
