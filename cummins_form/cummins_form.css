@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    background-color: white;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    margin: 8px;
+}
+.container{
+    background-color:rgba(187, 176, 176, 0.692);
+    background-image: url(img/pexels-eberhard-grossgasteiger-2310713.jpg);
+    padding: 5px 20px 40px 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select
+{
+    background-image: url();
+    width: 300px;
+    padding: 12px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+input[type="email"]{
+    width: 350px;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+textarea{
+    width: 1000px;
+    padding: 12px;
+    border: 1px solid lightgrey;
+}
+fieldset{
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+.main_heading{
+    text-align: center;
+    font-size: 60px;
+}
+input[type="submit"]
+{
+    background-color: seagreen;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin: 10px 10px;
+    border-radius: 4px;
+}
+input[type="submit"]:hover
+{
+background-color: green;
+}
+*{
+    background-color: rgba(247, 243, 243, 0.774);
+    
